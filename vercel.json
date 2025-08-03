@@ -1,3 +1,6 @@
 {
-  "type": "module"
+  "version": 2,
+  "builds": [
+    { "src": "api/instant_answer.js", "use": "@vercel/node" }
+  ]
 }
